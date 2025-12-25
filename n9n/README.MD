@@ -24,3 +24,12 @@ npx n8n
 ```js
 bunx n8n
 ```
+
+- note about 1789 deps , all had to be resolved
+- It also uses oracleDB for some reason
+
+# Passwords
+
+1. When starting up it you have to set pwd
+2. u - panty@smell.com / p - Lickpussy9
+3. Note it required a license key - `6e65c5f0-0396-47c9-9df4-291802e1685f`
