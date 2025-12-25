@@ -15,9 +15,10 @@
 
 1. This will be related tools that were installed
 
-|                        tul                        |                  wat                  |
-| :-----------------------------------------------: | :-----------------------------------: |
-| [`snitch`](https://github.com/karol-broda/snitch) | Better `ss` and `netstat` alternative |
+|                         tul                         |                  wat                  |
+| :-------------------------------------------------: | :-----------------------------------: |
+|  [`snitch`](https://github.com/karol-broda/snitch)  | Better `ss` and `netstat` alternative |
+| [`cargo-vet`](https://github.com/mozilla/cargo-vet) |     cargo suppply chain security      |
 
 # Install
 
