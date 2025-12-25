@@ -4,10 +4,10 @@
 
 # Sources
 
-|                     url                      |                                                 What                                                  |
-| :------------------------------------------: | :---------------------------------------------------------------------------------------------------: | ---------------------------------- |
-|        [`Master 80% of n8n in 60 mins        |                        YT`](https://youtu.be/e3OV3LnrS7o?si=DHrrBLkKen7aFCk3)                         | DL in desktop reference from there |
-| [`n8nGithub`](https://github.com/n8n-io/n8n) | Repo with Fair Use OpenSource version, note they have a commerically hosted version which costs money |
+| Label                        | URL                                                         | Notes                                                                   |
+| ---------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Master 80% of n8n in 60 mins | [YouTube](https://youtu.be/e3OV3LnrS7o?si=DHrrBLkKen7aFCk3) | Download and keep in **desktop** reference folder.                      |
+| n8n GitHub                   | [n8n-io/n8n](https://github.com/n8n-io/n8n)                 | Fair-code, source-available repo; separate paid cloud offering. [web:3] |
 
 # Notes
 
