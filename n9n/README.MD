@@ -22,5 +22,5 @@ npx n8n
 - This is using npx , you will use bun instead
 
 ```js
-;``
+bunx n8n
 ```
