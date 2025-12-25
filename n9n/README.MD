@@ -68,6 +68,9 @@ volumes:
 - Intiial execution ( docker compose up)
 - AFter shutting down , do the same command and it will be back up
 
+> [!WARNING]
+> Docker in docker is causing some issues in codespaces, wrt to the origin headers, Dont use docker method.
+
 # Passwords
 
 1. When starting up it you have to set pwd
