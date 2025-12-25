@@ -26,3 +26,6 @@ services:
       
       # STABILITY: Use SSE (Server-Sent Events) for the UI connection
       - N8N_PUSH_BACKEND=sse
+
+volumes:
+  n8n_data:
