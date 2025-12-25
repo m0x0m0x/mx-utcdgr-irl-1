@@ -37,6 +37,37 @@ bunx n8n
 - note about 1789 deps , all had to be resolved
 - It also uses oracleDB for some reason
 
+## Docker Method
+
+1. Based on the docs you can set it up like this , in bash
+
+```sh
+docker volume create n8n_data
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+```
+
+- The above was converted to a docker compose file which is more configurable
+
+```yaml
+version: "3.8"
+
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    container_name: n8n
+    ports:
+      - "5678:5678"
+    volumes:
+      - n8n_data:/home/node/.n8n
+    restart: unless-stopped
+
+volumes:
+  n8n_data:
+```
+
+- Intiial execution ( docker compose up)
+- AFter shutting down , do the same command and it will be back up
+
 # Passwords
 
 1. When starting up it you have to set pwd
